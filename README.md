@@ -1,4 +1,4 @@
-# 🖼️ Mood Photo App 📸
+# 🖼️ DualMood Photo App 📸
 
 Une application mobile construite avec **SwiftUI** et **Clean Architecture** pour offrir une expérience fluide de partage d'images et de commentaires basés sur des ambiances (moods). L'application permet aux utilisateurs de télécharger des photos, d'ajouter des commentaires et de naviguer entre différentes ambiances visuelles.
 
