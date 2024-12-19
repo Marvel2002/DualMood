@@ -13,6 +13,7 @@ struct DualMoodApp: App {
         WindowGroup {
             MainGradientView {
                 FeedView(viewModel: FeedViewModel(getFeedUseCase: GetFeedUseCase(feedRepository: FeedRepositoryImplem(unsplashService: UnsplashService()))))
+                    .preferredColorScheme(.light)
             }
         }
     }
