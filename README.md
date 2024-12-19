@@ -1,41 +1,57 @@
-# Application Photo Mood
+# 🖼️ Mood Photo App 📸
 
-Cette application permet aux utilisateurs de partager leurs photos accompagnées d'un commentaire lié à leur humeur. Les photos peuvent être sélectionnées depuis la galerie de l'appareil ou ajoutées directement dans l'application.
+Une application mobile construite avec **SwiftUI** et **Clean Architecture** pour offrir une expérience fluide de partage d'images et de commentaires basés sur des ambiances (moods). L'application permet aux utilisateurs de télécharger des photos, d'ajouter des commentaires et de naviguer entre différentes ambiances visuelles.
 
-## Fonctionnalités
+---
 
-- **Affichage des photos** : Les photos sont affichées dans un carrousel, permettant à l'utilisateur de naviguer facilement entre les différentes images.
-- **Commentaires** : Les utilisateurs peuvent laisser des commentaires sur les photos, avec une interface simple pour saisir du texte.
-- **Sélection de photos** : Les utilisateurs peuvent sélectionner une photo via un bouton dédié, qui ouvre un sélecteur d'images (`PhotosPicker`).
-- **Moods** : Chaque photo peut être associée à une humeur ("joyeux" ou "calme"), avec la possibilité de définir l'humeur lors de l'ajout de la photo.
+## 🚀 Fonctionnalités
 
-## Architecture
+- **📸 Téléchargez vos photos** : Capturez et téléchargez des images qui expriment vos états d'âme.
+- **🙂💭 Ambiances joyeuses ou introspectives** : Ajoutez des images à différentes ambiances et explorez des photos dans un flux intuitif.
+- **💬 Laissez des commentaires** : Partagez vos pensées sur les photos en ajoutant des commentaires.
+- **🔁 Swipe pour découvrir** : Naviguez entre les photos et les ambiances d'une simple glissée.
+- **📷 Choisissez vos images** : Sélectionnez des photos directement depuis votre galerie via un bouton personnalisé.
 
-L'application suit une **architecture propre (Clean Architecture)**. Les principales couches de l'architecture sont :
+## 📱 Aperçu de l'application
 
-- **ViewModel** : La logique de présentation est gérée par des objets `ViewModel`, qui interagissent avec les cas d'utilisation.
-- **Use Cases** : Les cas d'utilisation traitent la logique métier et communiquent avec les services externes (comme les API ou la base de données).
-- **Model** : Les modèles de données représentent les entités qui sont manipulées dans l'application (par exemple, `MoodModel`).
+![App Preview](https://your-image-url.com)
 
-Les données sont récupérées via un service `GetFeedUseCase`, qui se charge de récupérer les informations à afficher et de les transformer en objets que l'application peut utiliser.
+---
 
-## Technologies utilisées
+## 🛠️ Technologies utilisées
 
-- **SwiftUI** : Framework principal pour l'interface utilisateur.
-- **Combine** : Utilisé pour la gestion de l'état réactif et des mises à jour de l'interface.
-- **PhotosPicker** : Permet aux utilisateurs de sélectionner des photos depuis leur galerie.
-- **Clean Architecture** : Structure de l'application suivant les principes de l'architecture propre.
+- **SwiftUI** pour l'interface utilisateur.
+- **Clean Architecture** pour structurer l'application de manière modulaire et maintenable.
+- **Combine** et **Swift Concurrency (async/await)** pour la gestion des données et des appels réseau.
+- **PhotosPicker** pour l'importation d'images depuis la bibliothèque de l'utilisateur.
 
-## Installation
+---
 
-1. Clonez ce dépôt sur votre machine locale.
-2. Ouvrez le projet dans Xcode.
-3. Exécutez l'application sur un simulateur ou un appareil réel.
+## 🎯 Objectifs
 
-## Simulateur utilisé
+Cette application a été conçue pour permettre aux utilisateurs de :
 
-L'application a été testée sur le simulateur **iPhone 16 Pro Max** pour s'assurer que l'interface est correctement adaptée aux écrans de grande taille.
+1. Télécharger des photos et exprimer leur humeur à travers des images.
+2. Laisser des commentaires de manière simple et rapide.
+3. Explorer les photos partagées par d'autres, en passant d'une humeur à l'autre.
 
-## Contribution
+---
 
-L'application a été développée comme test technique pour **BeReal/Voodoo**.
+## 🔧 Installation
+
+1. Clonez ce dépôt :
+git clone https://github.com/your-repo/mood-photo-app.git
+Ouvrez le projet avec Xcode.
+Lancez l'application sur le simulateur iPhone 16 Pro Max ou un appareil réel.
+
+
+## ⚙️ Fonctionnalités à venir
+📅 Sauvegarde des commentaires : Ajouter un mécanisme pour sauvegarder et récupérer les commentaires de manière persistante.
+🔄 Amélioration de la gestion des erreurs : Affichage d'un toast en cas d'erreur.
+🖼️ Personnalisation de l'interface : Ajouter plus d'animations et de transitions pour rendre l'expérience utilisateur plus fluide.
+
+## 📝 Notes
+L'application a été développée en utilisant la Clean Architecture pour garantir une séparation des préoccupations et une évolutivité.
+L'interface a été optimisée pour iPhone 16 Pro Max mais peut être utilisée sur d'autres tailles d'écran.
+🏆 Auteur
+Développé par Marvin Matime.
