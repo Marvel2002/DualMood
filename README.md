@@ -13,8 +13,9 @@ Une application mobile construite avec **SwiftUI** et **Clean Architecture** pou
 - **📷 Choisissez vos images** : Sélectionnez des photos directement depuis votre galerie via un bouton personnalisé.
 
 ## 📱 Aperçu de l'application
+<img width="444" alt="Screenshot 2024-12-19 at 13 56 32" src="https://github.com/user-attachments/assets/c5dfc2a8-506a-4de7-9148-1bfaef815d28" />
+<img width="445" alt="Screenshot 2024-12-19 at 13 56 21" src="https://github.com/user-attachments/assets/5076c8e2-6f7a-4468-a7f8-b53e68523ae7" />
 
-![App Preview](https://your-image-url.com)
 
 ---
 
@@ -40,18 +41,18 @@ Cette application a été conçue pour permettre aux utilisateurs de :
 ## 🔧 Installation
 
 1. Clonez ce dépôt :
-git clone https://github.com/your-repo/mood-photo-app.git
-Ouvrez le projet avec Xcode.
-Lancez l'application sur le simulateur iPhone 16 Pro Max ou un appareil réel.
+git clone https://github.com/Marvel2002/DualMood.git
+2. Ouvrez le projet avec Xcode.
+3. Lancez l'application sur le simulateur iPhone 16 Pro Max ou un appareil réel.
 
 
-## ⚙️ Fonctionnalités à venir
-📅 Sauvegarde des commentaires : Ajouter un mécanisme pour sauvegarder et récupérer les commentaires de manière persistante.
-🔄 Amélioration de la gestion des erreurs : Affichage d'un toast en cas d'erreur.
-🖼️ Personnalisation de l'interface : Ajouter plus d'animations et de transitions pour rendre l'expérience utilisateur plus fluide.
+## ⚙️ Fonctionnalités à venir  
+📅 Sauvegarde des commentaires : Ajouter un mécanisme pour sauvegarder et récupérer les commentaires de manière persistante.  
+🔄 Amélioration de la gestion des erreurs : Affichage d'un toast en cas d'erreur.  
+🖼️ Personnalisation de l'interface : Ajouter plus d'animations et de transitions pour rendre l'expérience utilisateur plus fluide.  
 
 ## 📝 Notes
-L'application a été développée en utilisant la Clean Architecture pour garantir une séparation des préoccupations et une évolutivité.
-L'interface a été optimisée pour iPhone 16 Pro Max mais peut être utilisée sur d'autres tailles d'écran.
+L'application a été développée en utilisant la Clean Architecture pour garantir une séparation des préoccupations et une évolutivité.  
+L'interface a été optimisée pour iPhone 16 Pro Max mais peut être utilisée sur d'autres tailles d'écran.  
 🏆 Auteur
 Développé par Marvin Matime.
